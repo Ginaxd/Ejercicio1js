@@ -22,7 +22,63 @@ for (let i = 0; i < arrayNum.length; i++) {
  num += arrayNum[i];
 }
 // imprimimos en consola el resultado 
-console.log(num);
+//console.log(num);
 
+//! ejercicio 3
 
+function animal(){
+   while(num !=0 ){
+      let num = prompt("Selecciona el animal que quieras: 1.Perro 2.Pato 3.camello 4.gato 0.salir"); //* prompt() es un método del objeto Window de JavaScript que se usa para mostrar un cuadro de diálogo 
+      switch (num) {
+         case "1":
+            console.log(`
+            __      _
+            o'')}____//
+             _/      )
+             (_(_/-(_/
+             
+              `);
+            
+            break;
+
+         case "2":
+            console.log(`
+            __
+            ___(o)>
+            \ <_. )
+             ---'  
+            `);
+            break;
+         case "3":
+            console.log(`
+            //
+            _oo\
+           (__/ \  _  _
+              \  \/ \/ \
+              (         )\
+               \_______/  \
+                [[] [[]
+                [[] [[]
+
+            `);
+
+            break;
+
+         case "4":
+            console.log(`
+            /\_/\           ___
+            = o_o =_______    \ \  
+             __^      __(  \.__) )
+         (@)<_____>__(_____)____/
+            
+            `);
+
+            break;
+
+         case "0":
+            break;
+      }
+   }
+}
+animal();
 
