@@ -1,2 +1,2 @@
 # Ejercicio1js
-suma de dos números
+suma de dos números con JS
